@@ -22,8 +22,8 @@ public class ToHex{
         //Defining chars to represent the hexadecimal values
         
         {remainder=num%16; //Remainder into hexadecimal using modulo
-        string2=hexadecimal[remainder]+string2; //Decimal into hexadecimal
-        num=num&16; //Decimal into hexadecimal (formula)
+        string2=hexadecimal[remainder]+string2; //Number into hexadecimal
+        num=num&16; //Number into hexadecimal (formula)
         }
         
         System.out.print("The values are represented in hexadecimal as: " +string2);
