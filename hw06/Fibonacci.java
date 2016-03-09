@@ -31,11 +31,11 @@ public class Fibonacci{
         secondNumber = myScanner.nextInt();
         numbersInSequence = myScanner.nextInt();
     }
-    System.out.print ("The numbers are:" );
+    System.out.print ("The numbers are:" );//Printing out the numbers
     System.out.print (firstNumber + ",");
     System.out.print (secondNumber);
     
-    while (numbersInSequence>2){
+    while (numbersInSequence>2){ //Creating the loop to make the fibonacci sequence
         numbersInSequence=firstNumber+secondNumber;
         System.out.print("," + numbersInSequence);
         numbersInSequence--;
