@@ -9,11 +9,11 @@ public class TextSpinner{
     public static void main(String [] args){
         
         while (true){
-            System.out.print("/");
-            System.out.print("-");
-            System.out.print("\\");
-            System.out.print("|");
-            System.out.print("/");
+            System.out.print("/\b");
+            System.out.print("-\b");
+            System.out.print("\\\b");
+            System.out.print("|\b");
+            System.out.print("/\b");
         }
-    }
-}
+    }//End of main method
+}//End of class
